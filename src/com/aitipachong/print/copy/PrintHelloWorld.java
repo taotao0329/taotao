@@ -11,4 +11,12 @@ public class PrintHelloWorld
 	{
 		System.out.println("chinasoft aitipachong");
 	}
+	public void aaa()
+	{
+		System.out.println("chinasoft aitipachong");
+	}
+	public void bbb()
+	{
+		System.out.println("chinasoft aitipachong");
+	}
 }
