@@ -52,4 +52,17 @@ public class Calculate
 		if(Math.abs(b) == 0) return 0;
 		return a / b;
 	}
+
+	public void auther()
+	{
+		System.out.println("chinasoft aitipachong");
+	}
+	public void aaa()
+	{
+		System.out.println("chinasoft aitipachong");
+	}
+	public void bbb()
+	{
+		System.out.println("chinasoft aitipachong");
+	}
 }
