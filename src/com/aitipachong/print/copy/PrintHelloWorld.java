@@ -19,4 +19,17 @@ public class PrintHelloWorld
 	{
 		System.out.println("chinasoft aitipachong");
 	}
+
+	/**
+	 * ¼õ·¨
+	 * 
+	 * @param a
+	 * @param b
+	 * @return
+	 */
+	public int Subtraction(int a, int b)
+	{
+		return a - b;
+	}
+	
 }
