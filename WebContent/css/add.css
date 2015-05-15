@@ -1,0 +1,50 @@
+.table-bordered td {
+	text-align: center;
+}
+
+.person {
+	padding: 3px 15px;
+	margin: 5px;
+	float: left;
+	border: 1px #A9B3C0 dotted;
+	cursor: pointer;
+}
+
+.personsel {
+	padding: 3px 15px;
+	margin: 5px;
+	float: left;
+	border: 1px #FF8040 solid;
+	cursor: pointer;
+	background: #FED;
+}
+
+.addbutton {
+	margin-right: 20px;
+}
+
+.label-info a {
+	color: #fff;
+	margin: 0px 6px;
+}
+
+a.cancel, a.give {
+	padding: 2px 10px;
+	cursor: pointer;
+}
+
+a.cancel i, a.give i {
+	margin-right: 5px;
+}
+
+a.give {
+	color: #000;
+}
+
+a.give:hover {
+	color: #009F50;
+}
+
+span.save {
+	background: #5bb75b;
+}

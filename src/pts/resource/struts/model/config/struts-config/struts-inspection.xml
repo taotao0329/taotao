@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="inspection" extends="pts" namespace="/inspection">
+		<action name="inspection_*" method="{1}" class="inspectionAction">
+			<result name="success">/pages/serviceSetup.jsp</result>
+			<result name="ok" type="redirect">inspection/inspection_findAll.action
+			</result>
+			<result name="failed" type="redirect">/pages/addSchema.jsp</result>
+			<result name="get">/pages/getInspect.jsp</result>
+			<result name="Attr">/pages/addSchema.jsp</result>
+			<result name="exceptionInfo">inspection/inspection_findAll.action</result>
+		</action>
+	</package>
+</struts>

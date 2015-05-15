@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="execute" extends="pts" namespace="/execute">
+		<action name="execute_*" method="{1}" class="resultAct">
+			<result name="compDesc">/pages/CompileDesc.jsp</result>
+			<result name="success">/pages/showResu.jsp</result>
+			<result name="history">/pages/historyRecord.jsp</result>
+			<result name="ok" type="redirect">execute/execute_getObj.action</result>
+		</action>
+	</package>
+</struts>
